@@ -8,13 +8,13 @@ gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 
 # HTTParty for making HTTP requests [https://github.com/jnunemaker/httparty]
-gem 'httparty', '~> 0.23.2'
+gem "httparty", "~> 0.23.2"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem 'jbuilder', '~> 2.14', '>= 2.14.1'
+gem "jbuilder", "~> 2.14", ">= 2.14.1"
 
 # Swagger-based API documentation [https://github.com/rswag/rswag]
-gem 'rswag', '~> 2.10', '>= 2.10.1'
+gem "rswag", "~> 2.10", ">= 2.10.1"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
@@ -40,27 +40,27 @@ gem "thruster", require: false
 # gem "image_processing", "~> 1.2"
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
-gem 'rack-cors', '~> 3.0'
+gem "rack-cors", "~> 3.0"
 
 # Authentication with Devise [https://github.com/heartcombo/devise]
-gem 'devise', '~> 4.9', '>= 4.9.4'
+gem "devise", "~> 4.9", ">= 4.9.4"
 
 # JWT support for Devise [https://github.com/waiting-for-dev/devise-jwt]
-gem 'devise-jwt', '~> 0.12.1'
+gem "devise-jwt", "~> 0.12.1"
 
 group :development do
-  gem 'dotenv-rails', '~> 3.2'
+  gem "dotenv-rails", "~> 3.2"
 end
 
 group :development, :test do
   # Use RSpec for testing [https://rspec.info/]
-  gem 'rspec-rails', '~> 8.0', '>= 8.0.2'
+  gem "rspec-rails", "~> 8.0", ">= 8.0.2"
 
   # Capybara for integration testing [https://teamcapybara.github.io/capybara/]
-  gem 'capybara', '~> 3.40'
+  gem "capybara", "~> 3.40"
 
   # Factory Bot for test data generation [https://github.com/thoughtbot/factory_bot]
-  gem 'factory_bot_rails', '~> 6.5', '>= 6.5.1'
+  gem "factory_bot_rails", "~> 6.5", ">= 6.5.1"
   
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
