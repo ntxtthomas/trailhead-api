@@ -5,7 +5,7 @@ Rails API Backend Serving Data to `trailhead-web`, a React UI
 
 Trailhead is a full-stack application that combines a Ruby on Rails API with a React single-page application to explore and visualize data from the National Park Service API and Recreation.gov (RIDB).
 
-Users can browse national parks and recreation areas, explore them on an interactive map, and save favorites after authenticating.
+Users can browse national parks and recreation areas, explore them on an interactive map, stack queries to discover tailored adventures, and save favorites after authenticating.
 
 In addition to traditional search and filtering, Trailhead is designed to support an AI-assisted, natural-language search experience using Retrieval-Augmented Generation (RAG) and the OpenAI API.
 
