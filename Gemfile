@@ -61,7 +61,7 @@ group :development, :test do
 
   # Factory Bot for test data generation [https://github.com/thoughtbot/factory_bot]
   gem "factory_bot_rails", "~> 6.5", ">= 6.5.1"
-  
+
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 
