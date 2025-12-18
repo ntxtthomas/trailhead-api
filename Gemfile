@@ -48,6 +48,9 @@ gem "devise", "~> 4.9", ">= 4.9.4"
 # JWT support for Devise [https://github.com/waiting-for-dev/devise-jwt]
 gem "devise-jwt", "~> 0.12.1"
 
+# Redis support for Action Cable and caching [https://github.com/redis/redis-rb]
+gem 'redis', '~> 5.4', '>= 5.4.1'
+
 group :development do
   gem "dotenv-rails", "~> 3.2"
 end
