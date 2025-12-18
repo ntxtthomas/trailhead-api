@@ -16,6 +16,9 @@ gem "jbuilder", "~> 2.14", ">= 2.14.1"
 # Swagger-based API documentation [https://github.com/rswag/rswag]
 gem "rswag", "~> 2.10", ">= 2.10.1"
 
+# Pagination with Pagy [https://github.com/ddnexus/pagy]
+gem 'pagy', '~> 43.2', '>= 43.2.2'
+
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
