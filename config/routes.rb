@@ -7,4 +7,13 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  namespace :nps_api do
+    namespace :v1 do
+      resources :parks, only: [:index] do
+        collection do
+          post :sync
+        end
+      end
+    end
+  end
 end
