@@ -56,6 +56,7 @@ gem "redis", "~> 5.4", ">= 5.4.1"
 
 group :development do
   gem "dotenv-rails", "~> 3.2"
+  gem "pry-rails", "~> 0.3.11"
 end
 
 group :development, :test do
