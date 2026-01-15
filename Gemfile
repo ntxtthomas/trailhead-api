@@ -8,7 +8,7 @@ gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 
 # HTTParty for making HTTP requests [https://github.com/jnunemaker/httparty]
-gem "httparty", "~> 0.23.2"
+gem "httparty", "~> 0.24.2"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder", "~> 2.14", ">= 2.14.1"
